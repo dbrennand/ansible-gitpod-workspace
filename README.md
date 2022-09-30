@@ -18,6 +18,6 @@ Provides Ansible and Ansible-Lint ready for use in a Gitpod Workspace. This imag
     gp init
     ```
 
-3. Add the following to the top of the `.gitpod.yml` file: `image: ghcr.io/dbrennand/ansible-gitpod-workspace:latest`
+3. Add the following to the top of `.gitpod.yml`: `image: ghcr.io/dbrennand/ansible-gitpod-workspace:latest`
 
 That's it! Enjoy 🚀✨
