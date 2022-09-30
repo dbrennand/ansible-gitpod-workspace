@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full:latest
+FROM gitpod/workspace-python-3.9:latest
 
 # Install Ansible, Ansible-Lint and cowsay
 RUN pip install --no-cache-dir ansible==6.4.0 \
