@@ -1,12 +1,16 @@
-name: Build and push container image
+name: Build container image
 
 on:
   push:
     branches:
       - main
+  schedule:
+    # Every Wednesday at 10:00
+    - cron: "0 10 * * WED"
+  workflow_dispatch:
 
 jobs:
-  build-and-push-container-image:
+  build-container-image:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
