@@ -45,7 +45,7 @@ The container image builds every [Wednesday at 10:00](.github/workflows/containe
     git add .gitpod.yml && git commit -m "Add .gitpod.yml" && git push
     ```
 
-That's it! Start a new Workspace and enjoy! 🚀✨
+That's it! Start a new workspace and enjoy! 🚀✨
 
 ## Authors & Contributors
 
