@@ -1,8 +1,19 @@
 # Ansible Gitpod Workspace
 
-A container image for your Ansible Gitpod Workspace.
+<a href="https://gitpod.io/#https://github.com/dbrennand/ansible-gitpod-workspace">
+  <img
+    src="https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod"
+    alt="Contribute with Gitpod"
+  />
+</a>
+
+![Build container image GitHub Action Status](https://github.com/dbrennand/ansible-gitpod-workspace/actions/workflows/container.yml/badge.svg)
+
+Ready-to-use container image for your Ansible Gitpod Workspace.
 
 It expands upon the Gitpod [`gitpod/workspace-python-3.9`](https://github.com/gitpod-io/workspace-images/blob/main/chunks/lang-python/Dockerfile) container image to install Ansible related tooling.
+
+The container image builds every [Wednesday at 10:00](.github/workflows/container.yml#L9) which is 24 hours after the latest Gitpod workspace images are [published](https://github.com/gitpod-io/workspace-images/blob/main/.github/workflows/dockerhub-release.yml#L6) to DockerHub.
 
 ## Included Tooling
 
@@ -35,3 +46,11 @@ It expands upon the Gitpod [`gitpod/workspace-python-3.9`](https://github.com/gi
     ```
 
 That's it! Enjoy 🚀✨
+
+## Authors & Contributors
+
+[**dbrennand**](https://github.com/dbrennand) - *Author*
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) for details.
