@@ -1,12 +1,7 @@
 # Ansible Gitpod Workspace
 
-<a href="https://gitpod.io/#https://github.com/dbrennand/ansible-gitpod-workspace">
-  <img
-    src="https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod"
-    alt="Contribute with Gitpod"
-  />
-</a>
-![Build container image GitHub Action Status](https://github.com/dbrennand/ansible-gitpod-workspace/actions/workflows/container.yml/badge.svg)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/dbrennand/ansible-gitpod-workspace)
+![Build container image GitHub Action](https://github.com/dbrennand/ansible-gitpod-workspace/actions/workflows/container.yml/badge.svg)
 
 Ready-to-use container image for your Ansible Gitpod Workspace.
 
