@@ -6,7 +6,6 @@
     alt="Contribute with Gitpod"
   />
 </a>
-
 ![Build container image GitHub Action Status](https://github.com/dbrennand/ansible-gitpod-workspace/actions/workflows/container.yml/badge.svg)
 
 Ready-to-use container image for your Ansible Gitpod Workspace.
