@@ -39,7 +39,13 @@ The container image builds every [Wednesday at 10:00](.github/workflows/containe
     image: ghcr.io/dbrennand/ansible-gitpod-workspace:latest
     ```
 
-That's it! Enjoy 🚀✨
+4. Push your `.gitpod.yml` file:
+
+    ```bash
+    git add .gitpod.yml && git commit -m "Add .gitpod.yml" && git push
+    ```
+
+That's it! Start a new Workspace and enjoy! 🚀✨
 
 ## Authors & Contributors
 
