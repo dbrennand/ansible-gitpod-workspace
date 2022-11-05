@@ -14,10 +14,10 @@ The container image builds every [Wednesday at 10:00](.github/workflows/containe
 | Name                                                                                            | Version |
 | ----------------------------------------------------------------------------------------------- | ------- |
 | [Python](https://github.com/gitpod-io/workspace-images/blob/main/chunks/lang-python/Dockerfile) | 3.9     |
-| [Ansible](https://github.com/ansible/ansible)                                                   | 6.4.0   |
+| [Ansible](https://github.com/ansible/ansible)                                                   | 6.5.0   |
 | [YAMLLint](https://github.com/adrienverge/yamllint)                                             | 1.28.0  |
-| [Ansible-Lint](https://github.com/ansible/ansible-lint)                                         | 6.7.0   |
-| [Molecule](https://github.com/ansible-community/molecule)                                       | 4.0.1   |
+| [Ansible-Lint](https://github.com/ansible/ansible-lint)                                         | 6.8.6   |
+| [Molecule](https://github.com/ansible-community/molecule)                                       | 4.0.3   |
 | [Molecule Docker Driver](https://github.com/ansible-community/molecule-docker)                  | 2.1.0   |
 | Cowsay (very important 😉)                                                                       | N/A     |
 
